@@ -1,1 +1,3 @@
 # sops-tests
+
+Download secrets
