@@ -1,0 +1,24 @@
+example_key: ENC[AES256_GCM,data:qlpIdGUcXX9o103YWw==,iv:ZeP7Ajvp7tK9aS0HPYl2Iajc3wCwKWl54/hijmbQIik=,tag:hnlM4quU2eQRrXLeYiLx6g==,type:str]
+example_array:
+-   ENC[AES256_GCM,data:KFSqKPy1bJ/PKnb2RCc=,iv:MxfCJfQefhdpoWyZpiM09RNqUB2gGBjXdKJILbprDkQ=,tag:b6XRB9anXvwIOC6DhOhI0Q==,type:str]
+-   ENC[AES256_GCM,data:cbsHgk/x4DXm19fc5V0=,iv:EQ5YL6NaND/M8UYPrnCbu4medUki2A6LZopVJlkR0oY=,tag:icFXaBPU1J6cTiwk6ehiQw==,type:str]
+example_multiline: |-
+    ENC[AES256_GCM,data:f2TRyIGQi6CA7ogHxkti6MxMRcDB142Q4Hg=,iv:wad0v18m7XkjUwT+JVCssIjhmZj2V7jXiD1cb8sUl90=,tag:iTsIle1/5mtkPYB2ggDPPA==,type:str]
+example_number: ENC[AES256_GCM,data:BeplP9sOsSBJ,iv:UAlUY8AAMJYJh/IrGBhKHahImQ8UWOgSujhjslnx3aM=,tag:ybN/fkrIAQf6AN3U1tYxCQ==,type:float]
+example:
+    nested:
+        values: ENC[AES256_GCM,data:lATyq/dS7uf7,iv:OLhlcnjsshVa7pTyymlc1bjmCxajtiWCIU0GCKK7oRc=,tag:xzTJOrVm5J128WaXmOheUQ==,type:str]
+example_booleans:
+-   ENC[AES256_GCM,data:tcB/bA==,iv:bbtu8Pez8HUzRiEEe3nGQMCWmy/ZoAfm5kcxNhL5H8E=,tag:UBrgywJSz0df3x63StjYlQ==,type:bool]
+-   ENC[AES256_GCM,data:dmacZkI=,iv:lp+X92O4UYu0rzeEatA3KKzK6+gzzFG+W6jDlb197Lw=,tag:mG+XlkPzxhJE1Xt71GO1kA==,type:bool]
+sops:
+    attention: This section contains key material that should only be modified with
+        extra care. See `sops -h`.
+    version: '1.18'
+    unencrypted_suffix: _unencrypted
+    kms:
+    -   arn: arn:aws:kms:eu-west-2:228181321835:key/8fa94eb6-8e68-4f20-8a46-29d074b14f17
+        enc: AQICAHi9XW72fWzF3kYFkZDgCqdN63m04hJ7Wl0G6jvQ9LgwSQGlysawXYAzd1P5qmFb6IKRAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMDauXP3HuSH+C53BJAgEQgDu+jtuS54NC/pL2fouP+FV8Feq22T6GHRIxdP4nuyeXS1RStFLKxN4dlRKrtFuBzf6mIZGm3SJT11cAjw==
+        created_at: '2022-02-07T08:01:02Z'
+    lastmodified: '2022-02-07T08:01:02Z'
+    mac: ENC[AES256_GCM,data:lLLItcVdtZLclwt0MFTTXzu4ptL15NdzbETNypdBYzIuwETExMKiNCvuynHWRA72zPovJI2YjW9WC7KyKD30FLHOhenmfIAioIyv9iR6H8tFyu8Gm4bbzBRVvXK6yUjxP4r/bWK91Y2ctvcnGlHkaWTydo8KYnbDBf0bcIGoTcw=,iv:t9R3BrIeqHK8QgkB16LlFN/Rg/YWz5PhGG6fL5fde1o=,tag:6WiuCLUhX2+xn5a+6yqoYQ==,type:str]
